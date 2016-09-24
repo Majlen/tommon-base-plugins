@@ -18,6 +18,8 @@
 		<module>tommon-memory-oracle8</module>
 		<module>tommon-tomcat</module>
 		<module>plugin-archetype</module>
+		<module>tommon-os</module>
+		<module>tommon-threads</module>
 	</modules>
 
 	<properties>
