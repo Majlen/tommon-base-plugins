@@ -5,8 +5,8 @@ import tommon.annotations.JMXObject;
 
 @JMXObject(table = "system", value = "java.lang:type=OperatingSystem")
 public class CPU {
-    @JMXMonitor("SystemLoadAverage")
-    String systemLoad;
-    @JMXMonitor("SystemCpuLoad")
-    String cpuLoad;
+	@JMXMonitor("SystemLoadAverage")
+	String systemLoad;
+	@JMXMonitor("SystemCpuLoad")
+	String cpuLoad;
 }
